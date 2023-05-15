@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    align-items: center;
+    background-color: rgba(22, 22, 23, .8);
+    color: rgb(215, 226, 237);
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    height: 44px;
+}
+
+.navbar ul  .li-name{
+    font-size:14px;
+}
+
+.navbar ul{
+    display:flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navbar ul li{
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+    color: white;
+}
+
+/* content */
+
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    background-color: rgb(255,255,255 );
+    font-size: 17px;
+    line-height:1.47059;
+    letter-spacing: -0.022em;
+    font-family: sans-serif;
+    font-style: normal;
+    color:rgb(29,29,31)
+}
+
+
+
+.content a{
+    text-decoration: none;
+}
+
+.content a:hover{
+    text-decoration: underline;
+}
+
+/* Advertise-1 */
+
+.Addvertise-1 img{ 
+    z-index: -1;
+    display: flex;
+    display:block;
+    position: absolute;
+    right: auto;
+    left:auto;
+    flex-grow: 1;
+    overflow: visible;
+    left:0;
+
+}
+
+.Addvertise-1 h1{
+    
+    font-size:56px;
+    font-weight:600;
+    
+    letter-spacing: -.005em;
+}
+
+.Addvertise-1-heading{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+    color:#f5f5f7;
+    padding: 55px;
+}
+
+.Addvertise-1-heading a{
+    font-size:20px;
+    margin: 10px;
+    text-decoration: none;
+    color:rgb(0, 134, 230);   
+}
+
+.Addvertise-1-heading a:hover{
+    text-decoration: underline;
+}
+
+.links{
+    margin-top: 10px;
+}
+
